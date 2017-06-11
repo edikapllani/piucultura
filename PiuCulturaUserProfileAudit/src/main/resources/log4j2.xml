@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration >
+    <!--monitorInterval="10" status="INFO"-->
+    <Properties>
+        <Property name="log-path">logs</Property>
+      <!--  <Property name="shortPattern">[%d{HH:mm:ss.SSS}][%-5level] %c{0} - %msg%n</Property>
+       <Property name="verbosePattern">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] [%-5level] %c{0} - %msg%n
+        </Property>
+        -->
+
+        <Property name="shortPattern">[%d{HH:mm:ss.SSS}] - %msg%n</Property>
+        <Property name="verbosePattern">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} - %msg%n
+        </Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>${shortPattern}</pattern>
+            </PatternLayout>
+        </Console>
+        <RollingFile name="System-File"
+                     fileName="${log-path}/spring.boot.log"
+                     filePattern="${log-path}/spring.boot.%i.log" >
+            <PatternLayout>
+                <pattern>${verbosePattern}</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 Mb"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <RollingFile name="App-File"
+                     fileName="${log-path}/piucultura.audit.log"
+                     filePattern="${log-path}/piucultura.audit.%i.log" >
+            <PatternLayout>
+                <pattern>${verbosePattern}</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="100 Mb"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="it.piucultura.simulatore" level="INFO" additivity="true">
+            <AppenderRef ref="App-File"/>
+        </Logger>
+        <Root level="info" additivity="true">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="System-File"/>
+        </Root>
+    </Loggers>
+</Configuration>

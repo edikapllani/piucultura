@@ -1,0 +1,557 @@
+2017-06-08 16:09:04.555 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:09:04.582 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:09:04.587 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:09:05.041 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:09:05.089 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:09:05.124 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:09:05.133 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:09:05.146 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-08 16:09:05.196 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:09:05.199 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:09:05.199 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:09:05.218 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:09:05.235 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:09:05.252 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:09:05.257 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:09:05.258 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-08 16:09:06.279 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 13388 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:09:06.280 [main] [DEBUG] PiuCulturaUserProfileAuditApplicationTests - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:09:06.281 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - No active profile set, falling back to default profiles: default
+2017-06-08 16:09:07.650 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:09:13.831 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Started PiuCulturaUserProfileAuditApplicationTests in 8.298 seconds (JVM running for 11.712)
+2017-06-08 16:10:00.323 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 3536 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:10:00.334 [restartedMain] [DEBUG] PiuCulturaUserProfileAuditApplication - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:10:00.336 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - No active profile set, falling back to default profiles: default
+2017-06-08 16:10:01.280 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:10:06.086 [restartedMain] [INFO ] StandardService - Starting service Tomcat
+2017-06-08 16:10:06.094 [restartedMain] [INFO ] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:10:06.429 [localhost-startStop-1] [INFO ] [/] - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:10:10.639 [restartedMain] [INFO ] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:10:11.132 [restartedMain] [INFO ] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:10:11.169 [restartedMain] [INFO ] NioSelectorPool - Using a shared selector for servlet write/read
+2017-06-08 16:10:11.745 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Started PiuCulturaUserProfileAuditApplication in 12.221 seconds (JVM running for 14.23)
+2017-06-08 16:14:54.648 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 8020 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:14:54.662 [restartedMain] [DEBUG] PiuCulturaUserProfileAuditApplication - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:14:54.669 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - No active profile set, falling back to default profiles: default
+2017-06-08 16:14:55.515 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:15:02.421 [restartedMain] [INFO ] StandardService - Starting service Tomcat
+2017-06-08 16:15:02.431 [restartedMain] [INFO ] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:15:02.792 [localhost-startStop-1] [INFO ] [/] - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:15:12.582 [restartedMain] [INFO ] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:15:12.665 [restartedMain] [INFO ] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:15:12.753 [restartedMain] [INFO ] NioSelectorPool - Using a shared selector for servlet write/read
+2017-06-08 16:15:14.350 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Started PiuCulturaUserProfileAuditApplication in 20.852 seconds (JVM running for 23.771)
+2017-06-08 16:16:29.761 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:16:29.784 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:16:29.787 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:16:30.104 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:16:30.136 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:16:30.173 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:16:30.184 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:16:30.202 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-08 16:16:30.224 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:16:30.229 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:16:30.231 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:16:30.245 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:16:30.258 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:16:30.272 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:16:30.274 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:16:30.276 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-08 16:16:31.417 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 14020 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:16:31.419 [main] [DEBUG] PiuCulturaUserProfileAuditApplicationTests - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:16:31.419 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - No active profile set, falling back to default profiles: default
+2017-06-08 16:16:32.934 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:16:39.792 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Started PiuCulturaUserProfileAuditApplicationTests in 9.231 seconds (JVM running for 12.716)
+2017-06-08 16:17:27.230 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 12528 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:17:27.240 [restartedMain] [DEBUG] PiuCulturaUserProfileAuditApplication - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:17:27.241 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - No active profile set, falling back to default profiles: default
+2017-06-08 16:17:27.842 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:17:32.514 [restartedMain] [INFO ] StandardService - Starting service Tomcat
+2017-06-08 16:17:32.518 [restartedMain] [INFO ] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:17:32.827 [localhost-startStop-1] [INFO ] [/] - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:17:36.586 [restartedMain] [INFO ] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:17:37.189 [restartedMain] [INFO ] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:17:37.236 [restartedMain] [INFO ] NioSelectorPool - Using a shared selector for servlet write/read
+2017-06-08 16:17:38.083 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Started PiuCulturaUserProfileAuditApplication in 11.703 seconds (JVM running for 13.78)
+2017-06-08 16:18:01.347 [http-nio-8080-exec-10] [INFO ] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-08 16:18:01.649 [http-nio-8080-exec-10] [INFO ] TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-06-08 16:18:01.959 [http-nio-8080-exec-10] [INFO ] AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-06-08 16:18:01.964 [http-nio-8080-exec-10] [INFO ] AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-06-08 16:18:01.969 [http-nio-8080-exec-10] [INFO ] AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-06-08 16:18:01.969 [http-nio-8080-exec-10] [INFO ] AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-06-08 16:18:01.990 [http-nio-8080-exec-10] [INFO ] CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-06-08 16:18:02.001 [http-nio-8080-exec-10] [INFO ] TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-06-08 16:23:51.881 [http-nio-8080-exec-1] [INFO ] UserService - user: User{id=1496935431880, name='berni', subject='chi e mi'}
+2017-06-08 16:27:43.632 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:27:43.655 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:27:43.659 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:27:43.990 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:27:44.030 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:27:44.062 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:27:44.071 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:27:44.084 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-08 16:27:44.107 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:27:44.112 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:27:44.112 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:27:44.128 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:27:44.144 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:27:44.153 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:27:44.157 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:27:44.159 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-08 16:27:45.106 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 13416 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:27:45.108 [main] [DEBUG] PiuCulturaUserProfileAuditApplicationTests - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:27:45.110 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - No active profile set, falling back to default profiles: default
+2017-06-08 16:27:46.350 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:27:52.455 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Started PiuCulturaUserProfileAuditApplicationTests in 8.049 seconds (JVM running for 10.938)
+2017-06-08 16:29:01.329 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 12140 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:29:01.351 [restartedMain] [DEBUG] PiuCulturaUserProfileAuditApplication - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:29:01.353 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - No active profile set, falling back to default profiles: default
+2017-06-08 16:29:03.925 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:29:09.039 [restartedMain] [INFO ] StandardService - Starting service Tomcat
+2017-06-08 16:29:09.049 [restartedMain] [INFO ] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:29:09.587 [localhost-startStop-1] [INFO ] [/] - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:29:14.284 [restartedMain] [INFO ] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:29:14.329 [restartedMain] [INFO ] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:29:14.379 [restartedMain] [INFO ] NioSelectorPool - Using a shared selector for servlet write/read
+2017-06-08 16:29:14.869 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Started PiuCulturaUserProfileAuditApplication in 14.456 seconds (JVM running for 16.705)
+2017-06-08 16:30:55.208 [http-nio-8080-exec-10] [INFO ] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-08 16:30:55.509 [http-nio-8080-exec-10] [INFO ] UserService - entry generalRequest questionId:0
+2017-06-08 16:30:55.530 [http-nio-8080-exec-10] [ERROR] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at it.piucultura.userprofile.audit.controller.UserService.addRequest(UserService.java:73) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_25]
+2017-06-08 16:34:47.193 [http-nio-8080-exec-9] [INFO ] UserService - entry generalRequest questionId:121
+2017-06-08 16:34:47.197 [http-nio-8080-exec-9] [ERROR] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at it.piucultura.userprofile.audit.controller.UserService.addRequest(UserService.java:73) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_25]
+2017-06-08 16:35:23.099 [http-nio-8080-exec-8] [INFO ] UserService - entry generalRequest questionId:121
+2017-06-08 16:35:23.102 [http-nio-8080-exec-8] [ERROR] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at it.piucultura.userprofile.audit.controller.UserService.addRequest(UserService.java:73) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_25]
+2017-06-08 16:45:07.941 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:45:07.962 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:45:07.965 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:45:08.198 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:45:08.214 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:45:08.277 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:45:08.282 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:45:08.294 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-08 16:45:08.320 [main] [INFO ] SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-08 16:45:08.325 [main] [INFO ] AbstractContextLoader - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-08 16:45:08.325 [main] [INFO ] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-08 16:45:08.339 [main] [INFO ] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-08 16:45:08.352 [main] [INFO ] SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-08 16:45:08.366 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-08 16:45:08.370 [main] [INFO ] SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-08 16:45:08.372 [main] [INFO ] SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-08 16:45:09.279 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 1824 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:45:09.280 [main] [DEBUG] PiuCulturaUserProfileAuditApplicationTests - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:45:09.281 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - No active profile set, falling back to default profiles: default
+2017-06-08 16:45:11.531 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:45:16.191 [main] [INFO ] PiuCulturaUserProfileAuditApplicationTests - Started PiuCulturaUserProfileAuditApplicationTests in 7.527 seconds (JVM running for 9.901)
+2017-06-08 16:45:47.317 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 10676 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:45:47.327 [restartedMain] [DEBUG] PiuCulturaUserProfileAuditApplication - Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2017-06-08 16:45:47.328 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - No active profile set, falling back to default profiles: default
+2017-06-08 16:45:48.237 [background-preinit] [INFO ] Version - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:45:52.681 [restartedMain] [INFO ] StandardService - Starting service Tomcat
+2017-06-08 16:45:52.686 [restartedMain] [INFO ] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:45:53.214 [localhost-startStop-1] [INFO ] [/] - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:45:55.916 [restartedMain] [INFO ] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:45:56.255 [restartedMain] [INFO ] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:45:56.285 [restartedMain] [INFO ] NioSelectorPool - Using a shared selector for servlet write/read
+2017-06-08 16:45:56.722 [restartedMain] [INFO ] PiuCulturaUserProfileAuditApplication - Started PiuCulturaUserProfileAuditApplication in 10.134 seconds (JVM running for 12.153)
+2017-06-08 16:46:00.957 [http-nio-8080-exec-10] [INFO ] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-08 16:46:01.240 [http-nio-8080-exec-10] [INFO ] UserService - entry generalRequest questionId:121 java.lang.Integer
+2017-06-08 16:46:01.243 [http-nio-8080-exec-10] [INFO ] UserService - entry generalRequest :[1496936761243] [Claudio] [121] [Q] [ma chi e'] [X.X.X.X] [http://prova.softy.com]
+2017-06-08 16:46:01.243 [http-nio-8080-exec-10] [INFO ] UserService - [1496936761243] [Claudio] [121] [Q] [ma chi e'] [X.X.X.X] [http://prova.softy.com]
+2017-06-08 16:51:38.266 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 8216 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-08 16:51:38.281 - No active profile set, falling back to default profiles: default
+2017-06-08 16:51:39.993 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-08 16:51:42.640 - Starting service Tomcat
+2017-06-08 16:51:42.645 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-08 16:51:42.915 - Initializing Spring embedded WebApplicationContext
+2017-06-08 16:51:45.705 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:51:46.129 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-08 16:51:46.165 - Using a shared selector for servlet write/read
+2017-06-08 16:51:46.519 - Started PiuCulturaUserProfileAuditApplication in 8.92 seconds (JVM running for 10.547)
+2017-06-11 15:51:45.568 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 15:51:46.118 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 13324 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 15:51:46.171 - No active profile set, falling back to default profiles: default
+2017-06-11 15:51:51.833 - Starting service Tomcat
+2017-06-11 15:51:51.838 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-11 15:51:52.206 - Initializing Spring embedded WebApplicationContext
+2017-06-11 15:51:55.517 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-11 15:51:56.150 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-11 15:51:56.196 - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_25]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[?:1.8.0_25]
+	at sun.nio.ch.Net.bind(Net.java:428) ~[?:1.8.0_25]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[?:1.8.0_25]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_25]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication.main(PiuCulturaUserProfileAuditApplication.java:30) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+2017-06-11 15:51:56.230 - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+	at it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication.main(PiuCulturaUserProfileAuditApplication.java:30) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_25]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.3.RELEASE.jar:1.5.3.RELEASE]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	... 18 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_25]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[?:1.8.0_25]
+	at sun.nio.ch.Net.bind(Net.java:428) ~[?:1.8.0_25]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[?:1.8.0_25]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_25]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	... 18 more
+2017-06-11 15:51:56.298 - Pausing ProtocolHandler ["http-nio-8080"]
+2017-06-11 15:51:56.306 - Stopping service Tomcat
+2017-06-11 15:51:56.386 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-06-11 15:51:56.397 - Stopping ProtocolHandler ["http-nio-8080"]
+2017-06-11 15:51:56.400 - Destroying ProtocolHandler ["http-nio-8080"]
+2017-06-11 15:51:56.441 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2017-06-11 16:09:53.512 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 2784 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 16:09:53.525 - No active profile set, falling back to default profiles: default
+2017-06-11 16:09:54.466 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 16:09:59.170 - Starting service Tomcat
+2017-06-11 16:09:59.176 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-11 16:09:59.443 - Initializing Spring embedded WebApplicationContext
+2017-06-11 16:10:02.434 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-11 16:10:02.829 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-11 16:10:03.033 - Using a shared selector for servlet write/read
+2017-06-11 16:10:03.663 - Started PiuCulturaUserProfileAuditApplication in 10.969 seconds (JVM running for 12.934)
+2017-06-11 16:12:21.015 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-11 16:51:25.499 - entry generalRequest questionId:0 java.lang.Integer
+2017-06-11 16:51:25.509 - entry generalRequest :[1497196285509] [edi] [0] [Q] [ma che cavolo] [] []
+2017-06-11 16:51:25.514 - [1497196285509] [edi] [0] [Q] [ma che cavolo] [] []
+2017-06-11 17:08:20.813 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 10456 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 17:08:20.827 - No active profile set, falling back to default profiles: default
+2017-06-11 17:08:21.869 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 17:08:26.503 - Starting service Tomcat
+2017-06-11 17:08:26.510 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-11 17:08:26.818 - Initializing Spring embedded WebApplicationContext
+2017-06-11 17:08:29.760 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:08:30.410 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:08:30.462 - Using a shared selector for servlet write/read
+2017-06-11 17:08:31.269 - Started PiuCulturaUserProfileAuditApplication in 11.204 seconds (JVM running for 13.226)
+2017-06-11 17:08:40.772 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-11 17:08:41.068 - entry generalRequest :[1497197321068] [edi] [0] [Q] [ma che cavolo] [] []
+2017-06-11 17:08:41.073 - [1497197321068] [edi] [0] [Q] [ma che cavolo] [] []
+2017-06-11 17:12:24.298 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 17:12:24.321 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 17:12:24.329 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 17:12:24.634 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 17:12:24.748 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 17:12:24.789 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 17:12:24.802 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 17:12:24.820 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-11 17:12:24.853 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 17:12:24.870 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 17:12:24.876 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 17:12:24.907 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 17:12:24.921 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 17:12:24.937 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 17:12:24.940 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 17:12:24.942 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-11 17:12:25.922 - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 7248 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 17:12:25.925 - No active profile set, falling back to default profiles: default
+2017-06-11 17:12:27.368 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 17:12:34.914 - Started PiuCulturaUserProfileAuditApplicationTests in 9.611 seconds (JVM running for 13.017)
+2017-06-11 17:14:01.110 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 796 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 17:14:01.126 - No active profile set, falling back to default profiles: default
+2017-06-11 17:14:02.668 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 17:14:11.087 - Starting service Tomcat
+2017-06-11 17:14:11.092 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-11 17:14:11.551 - Initializing Spring embedded WebApplicationContext
+2017-06-11 17:14:17.771 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:14:18.244 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:14:18.308 - Using a shared selector for servlet write/read
+2017-06-11 17:14:20.546 - Started PiuCulturaUserProfileAuditApplication in 20.754 seconds (JVM running for 24.058)
+2017-06-11 17:16:44.725 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 17:16:44.745 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 17:16:44.748 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 17:16:45.112 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 17:16:45.141 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 17:16:45.181 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 17:16:45.189 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 17:16:45.210 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-11 17:16:45.231 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 17:16:45.236 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 17:16:45.242 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 17:16:45.258 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 17:16:45.276 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 17:16:45.289 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 17:16:45.295 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 17:16:45.296 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-11 17:16:46.354 - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 744 (started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 17:16:46.355 - No active profile set, falling back to default profiles: default
+2017-06-11 17:16:47.702 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 17:16:54.869 - Started PiuCulturaUserProfileAuditApplicationTests in 9.289 seconds (JVM running for 12.459)
+2017-06-11 17:17:41.278 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 17:17:41.937 - Starting PiuCulturaUserProfileAuditApplication on LAPTOP-0PGIN352 with PID 6424 (C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit\target\classes started by earthshrek in C:\edi\lavoro\workspace\palestra\spring.boot.mcr\PiuCulturaUserProfileAudit)
+2017-06-11 17:17:41.938 - No active profile set, falling back to default profiles: default
+2017-06-11 17:17:48.755 - Starting service Tomcat
+2017-06-11 17:17:48.759 - Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-11 17:17:49.125 - Initializing Spring embedded WebApplicationContext
+2017-06-11 17:17:56.078 - Initializing ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:17:57.272 - Starting ProtocolHandler ["http-nio-8080"]
+2017-06-11 17:17:57.358 - Using a shared selector for servlet write/read
+2017-06-11 17:17:58.389 - Started PiuCulturaUserProfileAuditApplication in 19.17 seconds (JVM running for 21.648)
+2017-06-11 17:27:02.565 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-11 17:27:02.850 - [1497198422850] [edi] [0] [Q] [ma che cavolo] [] []
+2017-06-11 18:01:12.786 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 18:01:12.818 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 18:01:12.822 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 18:01:13.126 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 18:01:13.166 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 18:01:13.202 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 18:01:13.207 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 18:01:13.224 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2898ac89, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@683dbc2c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68267da0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2638011, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ff29830, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a2b953e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@313b2ea6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f465398, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@548e6d58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@623a8092]
+2017-06-11 18:01:13.240 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests], using SpringBootContextLoader
+2017-06-11 18:01:13.242 - Could not detect default resource locations for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-06-11 18:01:13.244 - Could not detect default configuration classes for test class [it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests]: PiuCulturaUserProfileAuditApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-06-11 18:01:13.261 - Found @SpringBootConfiguration it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplication for test class it.piucultura.userprofile.audit.PiuCulturaUserProfileAuditApplicationTests
+2017-06-11 18:01:13.273 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-06-11 18:01:13.281 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-06-11 18:01:13.284 - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-06-11 18:01:13.286 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1d27ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61d6015a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2525ff7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@524d6d96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@152aa092, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@44a7bfbc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4ef37659, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@776b83cc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37858383, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4e268090]
+2017-06-11 18:01:14.060 - Starting PiuCulturaUserProfileAuditApplicationTests on LAPTOP-0PGIN352 with PID 12100 (started by earthshrek in C:\edi\lavoro\workspace\piucultura\PiuCulturaUserProfileAudit)
+2017-06-11 18:01:14.062 - No active profile set, falling back to default profiles: default
+2017-06-11 18:01:16.232 - HV000001: Hibernate Validator 5.3.5.Final
+2017-06-11 18:01:23.302 - Started PiuCulturaUserProfileAuditApplicationTests in 9.822 seconds (JVM running for 12.349)
